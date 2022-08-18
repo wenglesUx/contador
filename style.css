@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+body{
+    height: 100vh;
+    background:rosybrown;
+    display:grid;
+    align-items: center;
+  
+    
+    background-image: linear-gradient(75deg,#a14256, #cd6e82,#e2a7ad,#F6F2D4);
+    background-size: 300%,300%;
+    animation:colors 15s ease-in-out;
+    animation-iteration-count: infinite;
+
+    overflow-y: hidden;
+
+
+
+}
+.countdown{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,300px));
+    justify-content: center;
+    gap:10px;
+    padding:10px;
+}
+.countdown li {
+    font-family: DynaPuff;
+    font-style: italic;
+    padding:1rem;
+    color:#9e5753;
+    background:#ffc4c6;
+    opacity: 50%;
+    border-radius:5px;
+
+    box-shadow:0px 2px 2px  rgba(0,0,0,0.3);
+    text-align: center;
+
+}
+.countdown li  span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size:5rem;
+}
+
+.men{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:DynaPuff;
+   text-transform: uppercase;
+   color:white;
+   
+}
+
+
+
+
+@keyframes anima{
+    0%{background-color: black;top:100%;bottom:100% ;}
+    50%{background-color: blanchedalmond;top:100%;bottom:50%;}
+    100%{background-color: blanchedalmond;top:0%;bottom:50%;}
+    
+}
+
+
+.exemplo{
+bottom:50%;
+width:150px;
+height:150px;
+background-image:linear-gradient(45deg ,#08D9D6,#EAEAEA);
+background-size:300%.300%;
+border-radius: 75px;
+animation:anima 3s,colors 3s ease-in-out;
+animation-iteration-count: infinite;
+position: absolute;
+
+
+
+}
+.s{     
+     left:15%;
+        bottom:50%;
+        width:50px;
+        height:50px;
+       background-image: linear-gradient(45deg ,red,#EAEAEA);
+       background-size:300%.300%;
+        border-radius: 75px;
+        box-shadow: 3,2,blacks;
+        animation:anima 2s,colors 3s ease-in-out;
+      
+        animation-iteration-count: infinite;
+        position: absolute;
+}
+.t{
+    left:37%;
+    bottom:50%;
+    width:30px;
+    height:30px;
+    background-image: linear-gradient(45deg ,yellow,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 3s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;}
+.q{
+    
+    left: 42%;
+    bottom:50%;
+    width:27px;
+    height:27px;
+    background-image: linear-gradient(45deg ,green,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 5s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.qq{
+    
+    left:37%;
+    background-image: linear-gradient(45deg ,orange,#EAEAEA);
+    background-size:300%.300%;
+    bottom:50%;
+    width:80px;
+    height:80px;
+    
+    border-radius: 75px;
+    animation:anima 8s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.se{
+    
+    left:47%;
+    bottom:50%;
+    width:22px;
+    height:22px;
+    background-image: linear-gradient(45deg ,blue,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 4s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.ss{
+    
+    left:57%;
+    bottom:50%;
+    width:150px;
+    height:150px;
+    background-image: linear-gradient(45deg ,tomato,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 3s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.o{
+    
+    left:67%;
+    bottom:50%;
+    width:100px;
+    height:100px;
+    background-image: linear-gradient(45deg ,#c108d9,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 5s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.n{
+    
+    left:87%;
+    bottom:50%;
+    width:20px;
+    height:20px;
+    background-image: linear-gradient(45deg ,#d908cf,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 9s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}  
+
+
+
+.a{
+    
+    left:80%;
+    bottom:50%;
+    width:50px;
+    height:50px;
+    background-image: linear-gradient(45deg ,#cc9092,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 7s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}  
+.b{
+    
+    left:44%;
+    bottom:50%;
+    width:80px;
+    height:80px;
+    background-image: linear-gradient(45deg ,#c45656,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 5s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}  
+.c{
+    
+    left:29%;
+    bottom:50%;
+    width:45px;
+    height:45px;
+    background-image: linear-gradient(45deg ,#fdd809,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 10s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}  
+.d{
+    
+    left:90%;
+    bottom:50%;
+    width:54px;
+    height:54px;
+    background-image: linear-gradient(45deg ,#01b1d2,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 4s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}  
+.e{
+    
+    left:57%;
+    bottom:50%;
+    width:80px;
+    height:80px;
+    background-image: linear-gradient(45deg ,#8a2be2,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 6s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}  
+.f{
+    
+    left:69%;
+    bottom:50%;
+    width:100px;
+    height:100px;
+    background-image: linear-gradient(45deg ,#d908cf,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 8s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}  
+.g{
+    
+    left:32%;
+    bottom:50%;
+    width:170px;
+    height:170px;
+    background-image: linear-gradient(45deg ,#ffc4c6,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 2s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}  
+.h{
+    
+    left: 17%;
+    bottom:50%;
+    width:67px;
+    height:67px;
+    background-image: linear-gradient(45deg ,green,#EAEAEA);
+    background-size:300%.300%;
+    border-radius: 75px;
+    animation:anima 7s,colors 3s ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}  
+
+
+
+
+
+
+
+
+@keyframes colors {
+    0%{
+      background-position:0% 50%;
+  
+    }
+    50%{
+      background-position:100% 50%;
+  
+  
+    }
+    100%{
+  background-position: 0% 50%;
+  
+    }
